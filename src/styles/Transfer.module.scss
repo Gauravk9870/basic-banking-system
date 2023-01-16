@@ -1,0 +1,98 @@
+.transfer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+
+  .actions {
+    // border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+
+    .transferLogo {
+      // border: 1px solid red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      color: #e19a00;
+    }
+
+    .action {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      select {
+        border: none;
+        padding: 8px 12px;
+        // background-color: #e19a00;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .getData {
+    display: flex;
+    width: 30%;
+
+    input {
+      width: 70%;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-radius: 5px 0px 0px 5px;
+    }
+
+    .btn {
+      width: 30%;
+      button {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 5px 5px 0px;
+        border: none;
+        background-color: #f5b120;
+        cursor: pointer;
+        opacity: 0.8;
+
+        &:hover {
+          background-color: #e19a00;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .errorNote {
+    font-size: 12px;
+    color: red;
+  }
+  .successNote {
+    font-size: 12px;
+    color: green;
+
+    .remainingAmt {
+      color: green;
+      font-weight: bold;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .transfer {
+    .actions {
+      flex-direction: column;
+    }
+
+    .getData{
+      width: 65%;
+
+      
+    }
+  }
+}
