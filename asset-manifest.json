@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/basic-banking-system/static/css/main.bcdd98ef.css",
+    "main.js": "/basic-banking-system/static/js/main.841ec4e9.js",
+    "static/media/bg.jpg": "/basic-banking-system/static/media/bg.816a440a1ad729b6fb35.jpg",
+    "static/media/logo_small.png": "/basic-banking-system/static/media/logo_small.cbae0e8487eec2d12792.png",
+    "index.html": "/basic-banking-system/index.html",
+    "main.bcdd98ef.css.map": "/basic-banking-system/static/css/main.bcdd98ef.css.map",
+    "main.841ec4e9.js.map": "/basic-banking-system/static/js/main.841ec4e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcdd98ef.css",
+    "static/js/main.841ec4e9.js"
+  ]
+}
